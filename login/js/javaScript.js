@@ -18,7 +18,7 @@ function login() {
         success: function (data) {
             // console.log(data);
             localStorage.setItem("data", JSON.stringify(data));
-            // window.location.href = "../home/index.html"
+            window.location.href = "../home/index.html"
         }
     })
 }
